@@ -1,0 +1,20 @@
+# Archivos de imágenes subidas
+uploads/
+
+# Archivos de comprobantes PDF
+comprobantes/
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de PHP
+*.log
+*.tmp

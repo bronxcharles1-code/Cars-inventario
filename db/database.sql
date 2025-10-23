@@ -38,6 +38,7 @@ CREATE TABLE productos (
   precio_descuento DECIMAL(10,2) DEFAULT NULL,
   categoria VARCHAR(100),
   stock INT DEFAULT 0,
+  imagen VARCHAR(255) DEFAULT NULL,
   origen ENUM('comprado', 'fabricado') DEFAULT 'comprado',
   proveedor_id INT DEFAULT NULL,
   FOREIGN KEY (proveedor_id) REFERENCES proveedores(id) ON DELETE SET NULL
